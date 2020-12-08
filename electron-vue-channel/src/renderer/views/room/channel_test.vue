@@ -626,27 +626,33 @@
         },
         onNotifyJoinChannel(obj) {
           console.log("接收消息NotifyJoinChannel: " + JSON.stringify(obj));
+          /*
           this.$message({
             duration: 3000,
             message: "JoinChannel: " + JSON.stringify(obj),
             type: 'success'
           });
+          */
         },
         onNotifyLeaveChannel(obj) {
           console.log("接收消息NotifyLeaveChannel: " + JSON.stringify(obj));
+          /*
           this.$message({
             duration: 3000,
             message: "LeaveChannel: " + JSON.stringify(obj),
             type: 'success'
           });
+          */
         },
         onNotifyUserAttributesSet(obj) {
           console.log("用户属性设置UserAttributesSet: " + JSON.stringify(obj));
+          /*
           this.$message({
             duration: 3000,
             message: "UserAttributesSet: " + JSON.stringify(obj),
             type: 'success'
           });
+          */
         },
         onNotifyUserAttributesDelete(obj) {
           console.log("用户属性删除UserAttributesDelete: " + JSON.stringify(obj));
