@@ -1,8 +1,8 @@
 {
-  "name": "room",
+  "name": "electron-vue-channel",
   "version": "1.0.0",
   "author": "zhangbiwu",
-  "description": "hummer js-sdk demo",
+  "description": "js-sdk demo",
   "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {

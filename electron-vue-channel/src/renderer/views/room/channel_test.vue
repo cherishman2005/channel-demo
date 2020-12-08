@@ -83,7 +83,7 @@
           </el-form-item>
 
           <el-form-item class="search">
-            <el-button type="primary"  @click="sendMessageToChannel" style="border-radius: 4px">sendMessageToChannel</el-button>
+            <el-button type="primary" @click="sendMessageToChannel" style="border-radius: 4px">sendMessageToChannel</el-button>
           </el-form-item>
         </el-form>
       </el-col>
@@ -100,7 +100,7 @@
             <el-input v-model="JoinChannelReq.channelId"></el-input>
           </el-form-item>
           <el-form-item class="search">
-            <el-button type="primary"  @click="joinChannel" style="border-radius: 4px">joinChannel</el-button>
+            <el-button type="primary" @click="joinChannel" style="border-radius: 4px">joinChannel</el-button>
           </el-form-item>
         </el-form>
       </el-col>
@@ -319,12 +319,12 @@
           },
           GetGroupUserListByAttributeRes: '',
           queryOnlineStatusForUserParams: {
-            uid: '54321',
+            uid: UID,
           },
           SendP2PChatReq: {
             option: { reliable: 'no' },
             content: 'js_sdk SendP2PChat',
-            receiver: '54321',
+            receiver: UID,
           },
           SendP2PChatRes: "",
           SendP2ChannelReq: {

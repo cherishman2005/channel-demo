@@ -56,7 +56,7 @@
         return {
           uid: '',
           appid: 1504984159,
-          area: 'CN',
+          area: 'china/private/share',
           token: '',
           reportType: 0,
           appids: [{
