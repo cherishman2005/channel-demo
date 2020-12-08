@@ -1,2 +1,2 @@
-# electron-vue-room
-hummer channel/chatroom/im js-sdk demo
+# electron-vue-channel和vue-channel
+hummer channel demo
