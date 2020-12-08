@@ -347,7 +347,7 @@
         this.hummer = new Hummer.Hummer({ appid: this.appid,
                                     uid: this.uid,
                                     token: token,
-                                    area: 'CN',
+                                    area: AREA,
                                     onConnectStatus: this.onConnectStatus,
                                     onLoginStatus: this.onLoginStatus,
                                     onerror: (d) => {

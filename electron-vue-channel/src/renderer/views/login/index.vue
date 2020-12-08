@@ -65,6 +65,9 @@
             }, {
               value: 1350626568,
               label: '1350626568'
+            }, {
+              value: 1833618279,
+              label: '1833618279'
             }],
           areas: [{
               value: 'CN',
@@ -78,6 +81,9 @@
             }, {
               value: 'CN-INNER',
               label: 'inner'
+            }, {
+              value: 'china/private/share',
+              label: 'china/private/share'
             }],
       }
     },
