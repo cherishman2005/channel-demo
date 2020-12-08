@@ -1,4 +1,4 @@
-# electron-vue-room
+# electron-vue-channel
 
 > An electron-vue project
 
